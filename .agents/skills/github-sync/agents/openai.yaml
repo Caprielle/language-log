@@ -1,0 +1,3 @@
+interface:
+  display_name: "github-sync"
+  short_description: "检查 language-log 的待上传内容，确认后同步 GitHub 并说明主要变化"

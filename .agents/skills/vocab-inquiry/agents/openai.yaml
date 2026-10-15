@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vocab Inquiry"
+  short_description: "词汇查询：专业术语三语对照，普通词中文解释与技术美术例句"
+  default_prompt: "使用 $vocab-inquiry，开启当前对话的词汇查询模式。"

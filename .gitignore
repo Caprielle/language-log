@@ -1,0 +1,16 @@
+/_local/
+
+.env
+.env.*
+!.env.example
+
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+Thumbs.db
+.DS_Store
+
+/AGENTS.md
+/CONTEXT.md

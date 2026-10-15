@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vocab-inquiry",
+  "version": "0.1.0",
+  "description": "解释明确询问的词与短语：专业术语提供英日中对照，普通词提供中文释义、用法和例句。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Vocab Inquiry",
+        "shortDescription": "词汇查询：专业术语三语对照，普通词中文解释与技术美术例句",
+        "longDescription": "按当前语境解释用户明确询问的词与短语。专业术语完整展示英语、日语和中文，并用简单中文解释；普通词提供中文释义、源语言用法及例句译文。支持开启当前聊天的查词模式。",
+        "developerName": "Personal",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "开启当前对话的词汇查询模式。",
+          "解释三维建模中的 vertex。",
+          "解释 slightly 的含义和用法。"
+        ]
+      }
+    }
+  }
+}

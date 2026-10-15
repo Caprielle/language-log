@@ -1,0 +1,3 @@
+interface:
+  display_name: "Vocab Take In"
+  short_description: "收录当前对话或提供的原始问答：固定双表、单篇查重与拼写修正"
