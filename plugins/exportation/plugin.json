@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "exportation",
+  "version": "0.1.1",
+  "description": "将当前聊天原始问答导出为本地 Markdown；需要完整原文读取工具和目标电脑访问，当前包不包含聊天读取服务。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "exportation",
+        "shortDescription": "导出当前聊天原文，需完整读取与本地保存工具",
+        "longDescription": "在原 ChatGPT Chat 或 Work 对话中调用，按当前分支保留用户提问与助手回答，保存到 language-log 的本地 Inbox。包含转换、校验和防覆盖脚本。当前包没有聊天读取服务或工具适配程序；完整原文及本机执行工具不可用时停止，不输出摘要或部分记录。",
+        "developerName": "Personal",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "导出当前聊天。"
+        ]
+      }
+    }
+  }
+}

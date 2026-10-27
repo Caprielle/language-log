@@ -1,0 +1,4 @@
+interface:
+  display_name: "exportation"
+  short_description: "导出当前聊天原始问答；须有完整原文读取与本地保存工具，缺少即停止"
+  default_prompt: "使用 $exportation，将当前聊天的完整原始问答导出到本地 Inbox。"

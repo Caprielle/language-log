@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vocab-inquiry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "解释明确询问的词与短语：专业术语提供英日中对照，普通词提供中文释义、用法和例句。",
   "extensions": {
     "com.openai": {
